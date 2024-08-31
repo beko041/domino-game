@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ff0000; /* Kırmızı arka plan */
+}
+
+#player-hand-1, #player-hand-2, #table, #scoreboard {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#player-hand-1, #player-hand-2 {
+    background-color: #008000; /* Yeşil oyuncu masası */
+}
+
+#table {
+    background-color: #0000ff; /* Mavi ana masa */
+}
+
+.card {
+    display: inline-block;
+    width: 60px; /* Taşların genişliği */
+    height: 100px; /* Taşların yüksekliği */
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: #fff; /* Taşların arka plan rengi */
+    color: #000; /* Taş üzerindeki yazı rengi */
+    text-align: center;
+    line-height: 100px; /* Taş üzerindeki yazının ortalanması */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.card.selected {
+    background-color: #ff0; /* Seçili taş rengi */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+
